@@ -6,14 +6,14 @@ import treePic from '../public/tree.jpg'
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-6 py-6">
+    <div className="container mx-auto px-4 py-6">
 
 
-      <div className="relative bg-gray-50 overflow-hidden">
+      <div className="relative overflow-hidden">
         <div className="relative overflow-auto">
-          <div className="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto [--card-width:320px] md:[--card-width:420px]">
+          <div className="relative w-full flex gap-4 snap-x snap-mandatory overflow-x-auto [--card-width:280px] md:[--card-width:420px]">
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={santaPic}
                   placeholder="blur"
@@ -30,7 +30,7 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={girlPic}
                   placeholder="blur"
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={treePic}
                   placeholder="blur"
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={santaPic}
                   placeholder="blur"
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={santaPic}
                   placeholder="blur"
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
+              <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
                   src={santaPic}
                   placeholder="blur"
