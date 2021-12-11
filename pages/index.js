@@ -6,7 +6,7 @@ import treePic from '../public/tree.jpg'
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-6 py-6 border-2 border-rose-500">
+    <div className="container mx-auto px-6 py-6">
 
 
       <div className="relative bg-gray-50 overflow-hidden">
