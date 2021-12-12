@@ -1,3 +1,4 @@
+import NavBar from '../components/navbar'
 import Image from 'next/image'
 import santaPic from '../public/santa.jpg'
 import girlPic from '../public/girl.jpg'
@@ -6,9 +7,12 @@ import treePic from '../public/tree.jpg'
 
 export default function Home() {
   return (
+    <>
+    <NavBar></NavBar>
     <div className="container mx-auto px-4 py-6">
-
-
+      {/* Section Heading */}
+      <h2 className="text-xl pb-4 font-semibold">Featured</h2>
+      {/* Articles */}
       <div className="relative overflow-hidden">
         <div className="relative overflow-auto">
           <div className="relative w-full flex gap-4 snap-x snap-mandatory overflow-x-auto [--card-width:280px] md:[--card-width:420px]">
@@ -120,5 +124,6 @@ export default function Home() {
 
 
     </div>
+    </>
   )
 }
