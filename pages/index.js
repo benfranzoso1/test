@@ -3,6 +3,8 @@ import Image from 'next/image'
 import santaPic from '../public/santa.jpg'
 import girlPic from '../public/girl.jpg'
 import treePic from '../public/tree.jpg'
+import { SearchIcon } from '@heroicons/react/solid'
+
 
 
 export default function Home() {
@@ -11,7 +13,10 @@ export default function Home() {
     <NavBar></NavBar>
     <div className="container mx-auto px-4 py-6">
       {/* Section Heading */}
-      <h2 className="text-xl pb-4 font-semibold">Featured</h2>
+      <div className="flex justify-between items-center gap-4 pb-4">
+        <h2 className="text-xl font-semibold">News</h2>
+        <span className="underline decoration-[#00BBB4] underline-offset-4 decoration-2">See All</span>
+      </div>
       {/* Articles */}
       <div className="relative overflow-hidden">
         <div className="relative overflow-auto">
@@ -121,8 +126,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
 
-
+    <div className="container mx-auto px-4 py-6">
+      <h2 className="text-xl pb-4 font-semibold">Surf</h2>
     </div>
     </>
   )
