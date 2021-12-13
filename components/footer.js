@@ -173,7 +173,7 @@ const navigation = {
               </div>
             </div>
           </div>
-          <div className="mt-12 flex flex-wrap md:justify-between gap-2 border-t border-gray-200 pt-8">
+          <div className="mt-12 flex flex-wrap justify-center md:justify-between gap-2 border-t border-gray-200 pt-8">
             <p className="text-base text-gray-400 ">&copy; 2020 Surf NH, Inc. All rights reserved.</p>
             <div className='flex items-center gap-2 text-base text-gray-400'>
             Powered by B.I.F
