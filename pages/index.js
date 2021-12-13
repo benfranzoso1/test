@@ -13,9 +13,8 @@ export default function Home() {
     <NavBar></NavBar>
     <div className="container mx-auto px-4 py-6">
       {/* Section Heading */}
-      <div className="flex justify-between items-center gap-4 pb-4">
-        <h2 className="text-xl font-semibold">News</h2>
-        <span className="underline decoration-[#00BBB4] underline-offset-4 decoration-2">See All</span>
+      <div className="pb-4">
+        <h2 className="text-xl font-semibold underline decoration-[#00BBB4] underline-offset-4 decoration-2">News</h2>
       </div>
       {/* Articles */}
       <div className="relative overflow-hidden">
