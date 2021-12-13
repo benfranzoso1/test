@@ -1,8 +1,8 @@
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
 import Image from 'next/image'
-import santaPic from '../public/santa.jpg'
-import girlPic from '../public/girl.jpg'
+import surfOne from '../public/surf1.jpg'
+import surfTwo from '../public/surf2.jpg'
 import treePic from '../public/tree.jpg'
 import { SearchIcon } from '@heroicons/react/solid'
 
@@ -27,7 +27,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={santaPic}
+                  src={surfOne}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={girlPic}
+                  src={surfTwo}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -63,7 +63,7 @@ export default function Home() {
                 />
                 <div className="absolute w-full h-full bg-black/[.4] p-6 flex items-end rounded-lg">
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                     <span>NEWS</span>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={treePic}
+                  src={surfOne}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -80,7 +80,7 @@ export default function Home() {
                 />
                 <div className="absolute w-full h-full bg-black/[.4] p-6 flex items-end rounded-lg">
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                     <span>NEWS</span>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={santaPic}
+                  src={surfOne}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -97,7 +97,7 @@ export default function Home() {
                 />
                 <div className="absolute w-full h-full bg-black/[.4] p-6 flex items-end rounded-lg">
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                     <span>NEWS</span>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={santaPic}
+                  src={surfTwo}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -114,7 +114,7 @@ export default function Home() {
                 />
                 <div className="absolute w-full h-full bg-black/[.4] p-6 flex items-end rounded-lg">
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                     <span>NEWS</span>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export default function Home() {
             <div className="snap-center">
               <div className="relative h-64 md:h-80 w-[var(--card-width)] bg-gray-400 rounded-lg">
                 <Image
-                  src={santaPic}
+                  src={surfTwo}
                   placeholder="blur"
                   alt="Picture of the author"
                   layout='fill'
@@ -131,7 +131,7 @@ export default function Home() {
                 />
                 <div className="absolute w-full h-full bg-black/[.4] p-6 flex items-end rounded-lg">
                   <div className="relative text-white">
-                    <h1 className="text-2xl font-bold pb-2">Gov. Sunnunu rolls up his sleeve for COVID</h1>
+                    <h1 className="text-2xl font-bold pb-2">Surf NH First Article Will Be Here</h1>
                     <span>NEWS</span>
                   </div>
                 </div>
