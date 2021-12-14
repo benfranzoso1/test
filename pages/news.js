@@ -1,11 +1,11 @@
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
-import Link from 'next/link'
 import Image from 'next/image'
 import surfOne from '../public/surf1.jpg'
 import surfTwo from '../public/surf2.jpg'
 import treePic from '../public/tree.jpg'
 import { SearchIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 
 
@@ -13,15 +13,40 @@ export default function Home() {
   return (
     <>
     <NavBar></NavBar>
+    {/* News Catagory Nav Bar */}
+    <div className="bg-slate-100">
+        <div className="container relative">
+            <nav>
+                <ul className="flex flex-row gap-6 justify-center items-center p-4">
+                    <li>
+                        <Link href="/news/state">Show All</Link>
+                    </li>
+                    <li>
+                        <Link href="/news/state">State</Link>
+                    </li>
+                    <li>
+                        <Link href="/news/local">Local</Link>
+                    </li>
+                    <li>
+                        <Link href="/news/sports">Sports</Link>
+                    </li>
+                    <li>
+                        <Link href="/news/politics">Politics</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
     <div className="container mx-auto px-4 py-6">
       {/* Section Heading */}
       <div className="pb-4 flex gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
         </svg>
-        <Link href="/news">
-          <a className="text-xl font-semibold underline decoration-[#00BBB4] underline-offset-4 decoration-2">News</a>
-        </Link>
+        <h2 className="text-xl font-semibold underline decoration-[#00BBB4] underline-offset-4 decoration-2">News</h2>
       </div>
       {/* Articles */}
       <div className="relative overflow-hidden">
