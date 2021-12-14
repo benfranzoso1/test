@@ -145,14 +145,18 @@ export default function Home() {
               </div>
             </div>
             <div className="snap-center">
-              <div className="relative flex flex-col gap-2 justify-center items-center h-64 md:h-80 w-[120px] bg-gray-100 rounded-lg">
+              <Link href="/news">
+                <a>
+                <div className="relative flex flex-col gap-2 justify-center items-center h-64 md:h-80 w-[120px] bg-gray-50 hover:bg-gray-100 rounded-lg">
                 <span className="p-2 rounded-full bg-gray-200">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </span>
                 See All
-              </div>
+                </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

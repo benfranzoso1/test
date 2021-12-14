@@ -19,7 +19,7 @@ export default function Home() {
             <nav>
                 <ul className="flex flex-row gap-6 justify-center items-center p-4">
                     <li>
-                        <Link href="/news/state">Show All</Link>
+                        <Link href="/news">Show All</Link>
                     </li>
                     <li>
                         <Link href="/news/state">State</Link>
