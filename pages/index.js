@@ -13,13 +13,14 @@ import CardCarouselItem from '../components/cardcarouselitem'
 
 
 
+
 export default function Home() {
   return (
     <>
     <NavBar></NavBar>
     <div className="container mx-auto px-4 py-6">
       {/* Section Heading */}
-      <div className="pb-4 flex gap-2 items-center">
+      <div className="pb-6 flex gap-2 items-center">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
         </svg>
@@ -29,7 +30,7 @@ export default function Home() {
       </div>
       {/* Articles */}
       <div className="relative overflow-hidden">
-        <div className="relative overflow-auto">
+        <div className="relative overflow-auto after:absolute after:h-full after:w-16 after:top-0 after:right-0 after:will-change-[opacity] after:opacity-100 after:pointer-events-none after:bg-gradient-to-r after:from-transparent after:to-white after:transition-opacity">
 
           <CardCarousel>
 
